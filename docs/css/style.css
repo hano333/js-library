@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+  font-family: YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flex_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.w980 {
+  width: 980px;
+  max-width: 100%;
+  margin: auto;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.col-sm-6 {
+  width: calc(100% / 2 - 40px);
+  margin-bottom: 100px;
+}
+
+.col-sm-4 {
+  width: calc(100% / 3 - 26px);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+@charset "utf-8";
+$small:  "only screen and (max-width:787px)";
+
+body,html {
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+body{
+	font-family: YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.flex_box{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:row;
+	// どんな意味
+	flex-direction:row;
+	-webkit-flex-wrap: wrap;	
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	// いったんここまで
+	justify-content: space-between;
+
+}
+
+//ここで両はしがあく 
+.w980 {
+	width: 980px;
+	// どんな意味
+	max-width: 100%;
+	margin: auto;
+}
+
+img {
+	vertical-align: top;
+	max-width: 100%;
+	height:auto;
+}
+ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+// -40pxって？
+.col-sm-6{
+	width: -webkit-calc(100% / 2 - 40px);
+	width: calc(100% / 2 - 40px);
+	margin-bottom: 100px;
+}
+
+.col-sm-4{
+	width: -webkit-calc(100% / 3 - 26px);
+	width: calc(100% / 3 - 26px);
+}
+
+// ページ読み込み中のローディング画面を表示
+// #loader-bg {
+//     background: #fff;
+//     height: 100%;
+//     width: 100%;
+//     position: fixed;
+//     top: 0px;
+//     left: 0px;
+//     z-index: 10;
+// }
+// #loader-bg img {	
+//     background: #fff;
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     -webkit-transform: translate(-50%, -50%);
+//     -ms-transform: translate(-50%, -50%);
+//     transform: translate(-50%, -50%);
+//     z-index: 10;
+// }
